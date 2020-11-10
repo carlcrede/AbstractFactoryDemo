@@ -1,4 +1,6 @@
-package com.example.demo.products;
+package com.example.demo.products.concrete;
+
+import com.example.demo.products.interfaces.ISmartPhone;
 
 public class iPhone implements ISmartPhone {
     private String pictureUrl;

@@ -1,4 +1,6 @@
-package com.example.demo.products;
+package com.example.demo.products.concrete;
+
+import com.example.demo.products.interfaces.ITablet;
 
 public class iPad implements ITablet {
     private String pictureUrl;
