@@ -1,0 +1,21 @@
+package com.example.demo.products;
+
+public class SamsungGalaxy implements ISmartPhone {
+    private String pictureUrl;
+    private int weiight;
+
+    public SamsungGalaxy() {
+        pictureUrl = "https://static.mbilling.dk/images/webshop/product_images/10226f664f60b97264236c740cff384fba4395c8_1581411750.png";
+        weiight = 222;
+    }
+
+    @Override
+    public String pictureUrl() {
+        return pictureUrl;
+    }
+
+    @Override
+    public int weight() {
+        return weiight;
+    }
+}
