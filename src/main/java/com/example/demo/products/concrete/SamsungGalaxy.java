@@ -4,11 +4,11 @@ import com.example.demo.products.interfaces.ISmartPhone;
 
 public class SamsungGalaxy implements ISmartPhone {
     private String pictureUrl;
-    private int weiight;
+    private int weight;
 
     public SamsungGalaxy() {
         pictureUrl = "https://static.mbilling.dk/images/webshop/product_images/10226f664f60b97264236c740cff384fba4395c8_1581411750.png";
-        weiight = 222;
+        weight = 222;
     }
 
     @Override
@@ -18,6 +18,6 @@ public class SamsungGalaxy implements ISmartPhone {
 
     @Override
     public int weight() {
-        return weiight;
+        return weight;
     }
 }
