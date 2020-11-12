@@ -1,6 +1,6 @@
 package com.example.demo.products.interfaces;
 
-public interface ILaptop {
+public interface ILaptop  {
     String pictureUrl();
     boolean hasKeyboard();
 }
