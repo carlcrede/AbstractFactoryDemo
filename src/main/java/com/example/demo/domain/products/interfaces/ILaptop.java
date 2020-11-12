@@ -1,4 +1,4 @@
-package com.example.demo.products.interfaces;
+package com.example.demo.domain.products.interfaces;
 
 public interface ILaptop  {
     String pictureUrl();

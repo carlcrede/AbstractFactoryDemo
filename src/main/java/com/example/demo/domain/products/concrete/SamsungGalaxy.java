@@ -1,6 +1,6 @@
-package com.example.demo.products.concrete;
+package com.example.demo.domain.products.concrete;
 
-import com.example.demo.products.interfaces.ISmartPhone;
+import com.example.demo.domain.products.interfaces.ISmartPhone;
 
 public class SamsungGalaxy implements ISmartPhone {
     private String pictureUrl;

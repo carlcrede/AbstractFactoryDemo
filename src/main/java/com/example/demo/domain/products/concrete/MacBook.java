@@ -1,6 +1,6 @@
-package com.example.demo.products.concrete;
+package com.example.demo.domain.products.concrete;
 
-import com.example.demo.products.interfaces.ILaptop;
+import com.example.demo.domain.products.interfaces.ILaptop;
 
 public class MacBook implements ILaptop {
     private String pictureUrl;

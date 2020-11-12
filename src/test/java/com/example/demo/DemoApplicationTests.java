@@ -1,8 +1,8 @@
 package com.example.demo;
 
-import com.example.demo.factories.AppleFactory;
-import com.example.demo.factories.IPEDFactory;
-import com.example.demo.products.interfaces.ILaptop;
+import com.example.demo.domain.factories.AppleFactory;
+import com.example.demo.domain.factories.IPEDFactory;
+import com.example.demo.domain.products.interfaces.ILaptop;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.boot.test.context.SpringBootTest;

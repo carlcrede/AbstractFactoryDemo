@@ -1,6 +1,6 @@
-package com.example.demo.products.concrete;
+package com.example.demo.domain.products.concrete;
 
-import com.example.demo.products.interfaces.ITablet;
+import com.example.demo.domain.products.interfaces.ITablet;
 
 public class SamsungGalaxyTab implements ITablet {
     private String pictureUrl;
