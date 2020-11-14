@@ -12,12 +12,12 @@ public class SamsungGalaxy implements ISmartPhone {
     }
 
     @Override
-    public String pictureUrl() {
+    public String getPictureUrl() {
         return pictureUrl;
     }
 
     @Override
-    public int weight() {
+    public int getWeight() {
         return weight;
     }
 }

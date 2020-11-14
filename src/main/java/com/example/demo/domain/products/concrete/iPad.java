@@ -12,12 +12,12 @@ public class iPad implements ITablet {
     }
 
     @Override
-    public String pictureUrl() {
+    public String getPictureUrl() {
         return pictureUrl;
     }
 
     @Override
-    public int batteryLife() {
+    public int getBatteryLife() {
         return batteryLife;
     }
 }

@@ -16,11 +16,11 @@ public class restProductController {
     private IPEDFactory factory;
 
     @GetMapping("/choice")
-    public String chooseAppleOrSamsung(@RequestParam() String choice) {
+    public String chooseAppleOrSamsung(@RequestParam String choice) {
         System.out.println(choice);
         switch (choice) {
-            case "apple": factory = new AppleFactory();
-            case "samsung": factory = new SamsungFactory();
+            case "apple": factory = new AppleFactory(); break;
+            case "samsung": factory = new SamsungFactory(); break;
         }
         return choice;
     }

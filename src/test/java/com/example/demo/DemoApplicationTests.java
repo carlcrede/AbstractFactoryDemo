@@ -21,7 +21,7 @@ class DemoApplicationTests {
     void concreteProductIsMacBook() {
         IPEDFactory factory = new AppleFactory();
         ILaptop laptop = factory.createLaptop();
-        boolean hasKeyboard = laptop.hasKeyboard();
+        boolean hasKeyboard = laptop.getHasKeyboard();
         assertTrue(hasKeyboard);
     }
 

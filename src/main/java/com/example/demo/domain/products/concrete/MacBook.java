@@ -12,12 +12,12 @@ public class MacBook implements ILaptop {
     }
 
     @Override
-    public String pictureUrl() {
+    public String getPictureUrl() {
         return pictureUrl;
     }
 
     @Override
-    public boolean hasKeyboard() {
+    public boolean getHasKeyboard() {
         return hasKeyboard;
     }
 }
